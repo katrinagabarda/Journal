@@ -1,0 +1,25 @@
+SQL & ELT Basics
+    Foundations of DE
+        - moving one place to another
+        - life cycle: Generation->ingestion->transformation->serving
+    ETL(extract, transform, load) VS ELT(extract, load, transform)
+        - history: mahal storage before kaya tinitipid (ETL), now ETL lahat iniistore, kaya balikan
+        
+    DLT (data load tool)
+        - most popular production ready python lib
+        - 
+    CLickhouse
+        - ex of database(stores data)
+    OLPT 
+        - records row by row
+        - fast for inserts/upd 
+    OLAP
+        - records by column
+        - slower writes, optimized for reads
+    3 stage pipeline
+        1. start with the raw data
+        2. clean (identify if data is stadard, missing values, etc)
+        3. move to mart
+    DTB (data build tool)
+        - use for transforming
+        

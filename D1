@@ -3,11 +3,9 @@ SQL & ELT Basics
         - moving one place to another
         - life cycle: Generation->ingestion->transformation->serving
     ETL(extract, transform, load) VS ELT(extract, load, transform)
-        - history: mahal storage before kaya tinitipid (ETL), now ETL lahat iniistore, kaya balikan
-        
+        - history: mahal storage before kaya tinitipid (ETL), now ETL lahat iniistore, para eventuallly lahat kaya balikan
     DLT (data load tool)
         - most popular production ready python lib
-        - 
     CLickhouse
         - ex of database(stores data)
     OLPT 
@@ -20,6 +18,15 @@ SQL & ELT Basics
         1. start with the raw data
         2. clean (identify if data is stadard, missing values, etc)
         3. move to mart
-    DTB (data build tool)
+    DBT (data build tool)
         - use for transforming
-        
+
+Hands on experiences
+        - I got to familiarized myself with 4 new application;
+                WSL (ubuntu)
+                docker
+                git
+                dbeaver
+        - Connect to a database (clickhouse)
+        - Raw-> Clean-> Mart Pipeline
+        - i find metabase fun

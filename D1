@@ -4,7 +4,7 @@
         - moving one place to another
         - life cycle: Generation->ingestion->transformation->serving
     ETL(extract, transform, load) VS ELT(extract, load, transform)
-        - history: mahal storage before kaya tinitipid (ETL), now ETL lahat iniistore, para eventuallly lahat kaya balikan
+        - history: mahal storage before kaya tinitipid (ELT), now ETL lahat iniistore, para eventuallly lahat kaya balikan
     DLT (data load tool)
         - most popular production ready python lib
     CLickhouse
@@ -39,4 +39,5 @@ for finishing the task. Somehow, I pulled through.
 
 #### For next session
          - try to list the step by step process when doing a hands-on task 
+
 
